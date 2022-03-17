@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeMenu"
+        android:icon="@drawable/home"
+        android:title="Anasayfa"/>
+
+    <item android:id="@+id/notMenu"
+        android:icon="@drawable/bildirim"
+        android:title="Bildirimler"/>
+
+    <item android:id="@+id/exitMenu"
+        android:icon="@drawable/cikis"
+        android:title="Çıkış Yap"/>
+
+</menu>

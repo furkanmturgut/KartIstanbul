@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "938479574904",
+    "project_id": "istan-8cbbb",
+    "storage_bucket": "istan-8cbbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938479574904:android:9de43cc3518fd1d311328d",
+        "android_client_info": {
+          "package_name": "com.kunai.istanbulkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938479574904-dv29pcbhjim5sp2htq6jtkgu4v4q2a0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kunai.istanbulkart",
+            "certificate_hash": "c6435feab05049d6563c41ef9ea88004d3c10894"
+          }
+        },
+        {
+          "client_id": "938479574904-gg8e3mcta6r3sonl9l6dqk080mns6msn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIrLp9HkKf_3NtgJjZ1XspcCwIs1vxilE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938479574904-gg8e3mcta6r3sonl9l6dqk080mns6msn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

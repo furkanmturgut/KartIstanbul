@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".home.PaymentActivity">
+
+    <RelativeLayout
+      android:id="@+id/relativePayment"
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:background="@drawable/cardview_background">
+
+    <ImageView
+        android:id="@+id/istanbulImage"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/istanbul" />
+
+
+  </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/relativePayment"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_background"
+        android:gravity="center"
+        android:hint="Kart numarasını giriniz"
+        android:inputType="number"
+        android:maxLength="16" />
+
+  <EditText
+      android:layout_width="150dp"
+      android:layout_height="60dp"
+      android:layout_below="@id/editTextCardNumber"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/edittext_background"
+      android:hint="SKT"
+      android:gravity="center"
+      android:inputType="date"
+      android:id="@+id/editTextDate"/>
+
+  <EditText
+      android:id="@+id/editTextCCV"
+      android:layout_width="150dp"
+      android:layout_height="60dp"
+      android:layout_below="@id/editTextCardNumber"
+      android:layout_alignParentRight="true"
+      android:layout_marginStart="30dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="30dp"
+      android:inputType="number"
+      android:maxLength="3"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="30dp"
+      android:background="@drawable/edittext_background"
+      android:gravity="center"
+      android:hint="CCV" />
+
+  <Button
+      android:id="@+id/buttonPayment"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:layout_below="@id/editTextCCV"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="40dp"
+      android:backgroundTint="@color/yellow"
+      android:text="Ödemeyi Bitir"
+      android:textAllCaps="false" />
+
+
+
+
+
+
+</RelativeLayout>
